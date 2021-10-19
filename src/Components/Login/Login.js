@@ -11,10 +11,18 @@ import useAuth from '../../Hooks/useAuth';
 
 const Login = () => {
   const {handleGoogleSignIn,handleEmailChange,handlePasswordChange,handleLogin,error,handleResetPassword} =useAuth()
- 
+  const location = useLocation();
+  const history = useHistory()
+  const redirect_url = location.state?.from || '/home';
 
 
- 
+  const signUpWithGoogle =()=>{
+
+    handleGoogleSignIn()
+    .then(result=>{
+      history.push(redirect_url)
+    })
+  }
   
 
 
@@ -45,7 +53,7 @@ const Login = () => {
 
 
  <button
- onClick={handleGoogleSignIn}
+ onClick={signUpWithGoogle}
  className="btn"><img src={googleIcon} alt="" /></button>
  <button className="btn"><img src={facebookIcon} alt="" /></button>
         </div>
