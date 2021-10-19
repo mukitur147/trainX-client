@@ -5,10 +5,10 @@ import './NavigationMenu.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDumbbell,faSignOutAlt,faUser } from '@fortawesome/free-solid-svg-icons'
 import { useHistory } from 'react-router';
-import useFirebase from '../../Hooks/useFirebase';
+import useAuth from '../../Hooks/useAuth';
 
 const NavigationMenu = () => {
-  const{user ,logOut}=useFirebase()
+  const{user ,logOut}=useAuth()
     const dumbell = <FontAwesomeIcon icon={faDumbbell} />
     const profile = <FontAwesomeIcon icon={faUser} />
     const signOutIcon = <FontAwesomeIcon icon={faSignOutAlt} />
@@ -34,8 +34,9 @@ const NavigationMenu = () => {
       <Link to="/trainers">Trainers</Link>
       <Link to="/blogs">Blogs</Link>
       <Link to="/contact">Contact Us</Link> 
+     
       {
-        user.displayName ? <div className="d-flex">
+        user.email || user.displayName ? <div className="d-flex">
           <p className="mx-2 mt-2 text-white user-name"><small>| {user.displayName}</small></p>
           <img className="user-image mt-1" src={user.photoURL} alt="" />
           <button
