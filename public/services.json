@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "key": "asdf1",
+        "Genre": "Strength",
+        "name": "Weight Lifting",
+        "details": "Building stronger muscles isn’t just about vanity, either. According to the Mayo Clinic, strength training not only helps with weight control, but also stops bone loss and can even build new bone....",
+        "moreDetails": "The amount of weight you use depends on how many repetitions you’re aiming for. You want to lift enough weight so that the last repetition is really tough and you feel like you couldn’t do one more. Naturally, you’ll need to use a heavier dumbbell for 6 repetitions than you will for 12, even though you’re doing the same exercise.Never lift so much weight that it causes pain. You are better off lifting too little than too much as your body gets used to weight training. Also, unless you are working out with a spotter, use machines with safety stops in place to prevent injury.",
+        "img": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+        "fee": 120
+    },
+    {
+        "id": 2,
+        "key": "asdf2",
+        "Genre": "Cardio",
+        "name": "Indooor Cycling",
+        "details": "While we all agree that cycling outdoors is wonderful, it’s not always possible to get outside. Indoor training gives you the chance to turn the pedals and top up your fitness when it’s difficult to head out....",
+        "moreDetails": "There are a variety of reasons to consider indoor cycling: it’s convenient, time-efficient, not weather-dependent and you won’t end up with a dirty bike. Plus, you can do targeted workouts to improve your stamina, speed, cardiovascular fitness and more.If you’re new to the world of indoor cycling, you can be faced with a dazzling array of pricey equipment and accessories. However, it’s perfectly possible to get an indoor training setup without breaking the bank.",
+        "img": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1174&q=80",
+        "fee": 109
+    },
+    {
+        "id": 3,
+        "key": "asdf3",
+        "Genre": "Strength",
+        "name": "Kettlebel Power",
+        "details": "As far as exercise equipment goes, a kettlebell is as simple as it gets: just a hunk of iron with a handle. And unlike complicated weight machines, kettlebells allow for compound, functional exercises...",
+        "moreDetails": "Most outdoor athletes, especially skiers, climbers, and hikers, spend a lot of time under tension, with your muscles loaded and engaged for long durations, says John Mark Seelig, a coach and the co-founder of Goat Training in Edwards, Colorado. Think about the leg burn that builds during a nonstop ski run, for example. Early in the season, the burn can be brutal. A little preseason strength and conditioning work will go a long way toward allowing you to link turns with style, top to bottom. “Kettlebells are an excellent training tool for that tension,” Seelig says. “Plus, for a lot of people, they’re more fun than machines and less intimidating than a barbell loaded with weight.”",
+        "img": "https://images.unsplash.com/photo-1603233720024-bebea0128645?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+        "fee": 98
+    },
+    {
+        "id": 4,
+        "key": "asdf4",
+        "Genre": "Functional",
+        "name": "Core Power",
+        "details": "Core power yoga is one of the multi-disciplinary and more vigorous types of yoga that strengthens and empowers the body, mind, and spirit.This inner power then builds the foundation for students to tap into their...",
+        "moreDetails": "Core power yoga works because its strenuous and vigorous enough to get the physical results you want, but without the typical feeling of exhaustion after a long workout session. This is because as physically demanding core power yoga may be, it still involves the spiritual and/or meditational elements of the Indian practice. Simply put, core power yoga allows you to get both physical and mental exercise.",
+        "img": "https://images.unsplash.com/photo-1575052814074-c05122e0a17a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "fee": 103
+    },
+    {
+        "id": 5,
+        "key": "asdf5",
+        "Genre": "Functional",
+        "name": "Mobility Circle",
+        "details": "Mobility designates exercises that will increase your range-of-motion and your stabilization, or control of the muscles that surround each joint, Wickham explains. Mobility isn’t the ...",
+        "moreDetails": "You’ve probably heard this before, but it’s worth repeating: “Because we spend so much time in poor, static positions including in front of the computer, TV, or phone, our body gets ‘tight’ and lacks both optimal range-of-motion and adequate activation of specific muscle groups,” says Wickham.Head into a workout with limited range-of-motion, and your assistance muscles will start to compensate. Because assistance muscles are typically smaller and weaker, forcing them to handle excessive torque is a recipe for pain and injury. Worse, if your lifts aren’t activating primary muscles because you can’t achieve full range-of-motion, you probably won’t even build the muscle you’re working toward.But let’s say you already warm up when you get to the gym. Isn’t that enough? Well…probably not.",
+        "img": "https://images.unsplash.com/photo-1522898467493-49726bf28798?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "fee": 152
+    },
+    {
+        "id": 6,
+        "key": "asdf6",
+        "Genre": "Cardio",
+        "name": "Body Works",
+        "details": " workout is 25 percent perspiration and 75 percent determination. Stated another way, it is one part physical exertion and three parts self-discipline. Doing it is easy once you get started...",
+        "moreDetails": "A workout makes you better today than you were yesterday. It strengthens the body, relaxes the mind, and toughens the spirit. When you work out regularly, your problems diminish and your confidence grows. A workout is a personal triumph over laziness and procrastination. It is the badge of a winner - the mark of an organized, goal-oriented person who has taken charge of his, or her, destiny.A workout is a wise use of time and an investment in excellence. It is a way of preparing for lifes challenges and proving to yourself that you have what it takes to do what is necessary.A workout is a key that helps unlock the door to opportunity and success. Hidden within each of us is an extraordinary force. Physical and mental fitness are the triggers that can release it.A workout is a form of rebirth. When you finish a good workout, you dont simply feel better, YOU FEEL BETTER ABOUT YOURSELF.",
+        "img": "https://images.unsplash.com/photo-1605296867724-fa87a8ef53fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "fee": 142
+    },
+    {
+        "id": 7,
+        "key": "asdf7",
+        "Genre": "Strenght",
+        "name": "Abs Workout",
+        "details": " workout is 25 percent perspiration and 75 percent determination. Stated another way, it is one part physical exertion and three parts self-discipline. Doing it is easy once you get started....",
+        "moreDetails": "A workout makes you better today than you were yesterday. It strengthens the body, relaxes the mind, and toughens the spirit. When you work out regularly, your problems diminish and your confidence grows. A workout is a personal triumph over laziness and procrastination. It is the badge of a winner - the mark of an organized, goal-oriented person who has taken charge of his, or her, destiny.A workout is a wise use of time and an investment in excellence. It is a way of preparing for lifes challenges and proving to yourself that you have what it takes to do what is necessary.A workout is a key that helps unlock the door to opportunity and success. Hidden within each of us is an extraordinary force. Physical and mental fitness are the triggers that can release it.A workout is a form of rebirth. When you finish a good workout, you dont simply feel better, YOU FEEL BETTER ABOUT YOURSELF.",
+        "img": "https://images.unsplash.com/photo-1532384661798-58b53a4fbe37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+        "fee": 142
+    },
+    {
+        "id": 8,
+        "key": "asdf8",
+        "Genre": "strenght",
+        "name": "Upper Arm Workout",
+        "details": " workout is 25 percent perspiration and 75 percent determination. Stated another way, it is one part physical exertion and three parts self-discipline. Doing it is easy once you get started....",
+        "moreDetails": "A workout makes you better today than you were yesterday. It strengthens the body, relaxes the mind, and toughens the spirit. When you work out regularly, your problems diminish and your confidence grows. A workout is a personal triumph over laziness and procrastination. It is the badge of a winner - the mark of an organized, goal-oriented person who has taken charge of his, or her, destiny.A workout is a wise use of time and an investment in excellence. It is a way of preparing for lifes challenges and proving to yourself that you have what it takes to do what is necessary.A workout is a key that helps unlock the door to opportunity and success. Hidden within each of us is an extraordinary force. Physical and mental fitness are the triggers that can release it.A workout is a form of rebirth. When you finish a good workout, you dont simply feel better, YOU FEEL BETTER ABOUT YOURSELF.",
+        "img": "https://images.unsplash.com/photo-1603287681836-b174ce5074c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1171&q=80",
+        "fee": 142
+    },
+    {
+        "id": 9,
+        "key": "asdf9",
+        "Genre": "Cardio",
+        "name": "Treadmill Workout",
+        "details": " workout is 25 percent perspiration and 75 percent determination. Stated another way, it is one part physical exertion and three parts self-discipline. Doing it is easy once you get started.",
+        "moreDetails": "A workout makes you better today than you were yesterday. It strengthens the body, relaxes the mind, and toughens the spirit. When you work out regularly, your problems diminish and your confidence grows. A workout is a personal triumph over laziness and procrastination. It is the badge of a winner - the mark of an organized, goal-oriented person who has taken charge of his, or her, destiny.A workout is a wise use of time and an investment in excellence. It is a way of preparing for lifes challenges and proving to yourself that you have what it takes to do what is necessary.A workout is a key that helps unlock the door to opportunity and success. Hidden within each of us is an extraordinary force. Physical and mental fitness are the triggers that can release it.A workout is a form of rebirth. When you finish a good workout, you dont simply feel better, YOU FEEL BETTER ABOUT YOURSELF.",
+        "img": "https://images.unsplash.com/photo-1540111970170-b1c4d4fbadaa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80",
+        "fee": 142
+    },
+    {
+        "id": 10,
+        "key": "asdf10",
+        "Genre": "Functional",
+        "name": "Belly Fat Reduce",
+        "details": " workout is 25 percent perspiration and 75 percent determination. Stated another way, it is one part physical exertion and three parts self-discipline. Doing it is easy once you get started.",
+        "moreDetails": "A workout makes you better today than you were yesterday. It strengthens the body, relaxes the mind, and toughens the spirit. When you work out regularly, your problems diminish and your confidence grows. A workout is a personal triumph over laziness and procrastination. It is the badge of a winner - the mark of an organized, goal-oriented person who has taken charge of his, or her, destiny.A workout is a wise use of time and an investment in excellence. It is a way of preparing for lifes challenges and proving to yourself that you have what it takes to do what is necessary.A workout is a key that helps unlock the door to opportunity and success. Hidden within each of us is an extraordinary force. Physical and mental fitness are the triggers that can release it.A workout is a form of rebirth. When you finish a good workout, you dont simply feel better, YOU FEEL BETTER ABOUT YOURSELF.",
+        "img": "https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+        "fee": 142
+    },
+    {
+        "id": 11,
+        "key": "asdf11",
+        "Genre": "Strenght",
+        "name": "Chest Workout",
+        "details": " workout is 25 percent perspiration and 75 percent determination. Stated another way, it is one part physical exertion and three parts self-discipline. Doing it is easy once you get started.",
+        "moreDetails": "A workout makes you better today than you were yesterday. It strengthens the body, relaxes the mind, and toughens the spirit. When you work out regularly, your problems diminish and your confidence grows. A workout is a personal triumph over laziness and procrastination. It is the badge of a winner - the mark of an organized, goal-oriented person who has taken charge of his, or her, destiny.A workout is a wise use of time and an investment in excellence. It is a way of preparing for lifes challenges and proving to yourself that you have what it takes to do what is necessary.A workout is a key that helps unlock the door to opportunity and success. Hidden within each of us is an extraordinary force. Physical and mental fitness are the triggers that can release it.A workout is a form of rebirth. When you finish a good workout, you dont simply feel better, YOU FEEL BETTER ABOUT YOURSELF.",
+        "img": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+        "fee": 142
+    },
+    {
+        "id": 12,
+        "key": "asdf12",
+        "Genre": "Cardio",
+        "name": "Yoga",
+        "details": " workout is 25 percent perspiration and 75 percent determination. Stated another way, it is one part physical exertion and three parts self-discipline. Doing it is easy once you get started.",
+        "moreDetails": "A workout makes you better today than you were yesterday. It strengthens the body, relaxes the mind, and toughens the spirit. When you work out regularly, your problems diminish and your confidence grows. A workout is a personal triumph over laziness and procrastination. It is the badge of a winner - the mark of an organized, goal-oriented person who has taken charge of his, or her, destiny.A workout is a wise use of time and an investment in excellence. It is a way of preparing for lifes challenges and proving to yourself that you have what it takes to do what is necessary.A workout is a key that helps unlock the door to opportunity and success. Hidden within each of us is an extraordinary force. Physical and mental fitness are the triggers that can release it.A workout is a form of rebirth. When you finish a good workout, you dont simply feel better, YOU FEEL BETTER ABOUT YOURSELF.",
+        "img": "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80",
+        "fee": 142
+    }
+]

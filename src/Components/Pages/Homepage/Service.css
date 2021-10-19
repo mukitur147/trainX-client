@@ -1,0 +1,20 @@
+.services-card{
+    border-radius: 10px;
+}
+.services-card h5{
+ color: rgba(255, 68, 0, 0.918);
+ font-weight: 700;
+ font-size: 23px;
+}
+.services-card h4{
+    font-size: 26px;
+}
+.services-card p{
+    font-size: 15px;
+    color: rgb(78, 76, 76);
+}
+.services-card:hover{
+    transform: scale(1.03);
+    transition:  transform 1s;
+    box-shadow: 1px 1px 20px rgba(255, 68, 0, 0.815);
+}

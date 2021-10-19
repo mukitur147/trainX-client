@@ -1,0 +1,45 @@
+.navigatebar{
+ background-color: black;
+ padding-bottom: 20px;
+}
+.menus a{
+   margin-left: 10px;
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.952);
+    padding: 5px;
+    font-size: 19px;
+   
+}
+.menus a:hover{
+    color: black;
+    background-color: rgba(255, 166, 0, 0.897);
+    border-radius: 7px;
+    box-shadow: 1px 1px 25px rgba(255, 166, 0, 0.747);
+  
+}
+.icons{
+    color:orange ;
+}
+.custom-button{
+    color: rgba(34, 32, 32, 0.925);
+    background-color: orange;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 7px 15px;
+}
+.custom-button:hover{
+    transform: scale(1.02);
+    transition: transform 0.6s ease-out ;
+    box-shadow: 1px 1px 20px rgba(255, 166, 0, 0.747);
+}
+.user-image{
+    clip-path: circle();
+    width: 35px;
+    height: 35px;
+}
+.user-name{
+    font-size: 15px;
+    font-weight: 500;
+}
