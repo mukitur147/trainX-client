@@ -36,7 +36,7 @@ const NavigationMenu = () => {
       <Link to="/contact">Contact Us</Link> 
      
       {
-        user.email || user.displayName ? <div className="d-flex">
+        user.displayName ? <div className="d-flex">
           <p className="mx-2 mt-2 text-white user-name"><small>| {user.displayName}</small></p>
           <img className="user-image mt-1" src={user.photoURL} alt="" />
           <button

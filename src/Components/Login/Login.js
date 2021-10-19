@@ -5,12 +5,12 @@ import facebookIcon from '../../Images/facebook.png'
 import { Link ,useHistory,useLocation } from 'react-router-dom';
 import './Login.css'
 import useAuth from '../../Hooks/useAuth';
-import initializeAuthentication from '../../Firebase/firebase.init';
+
 
 
 
 const Login = () => {
-  const {handleGoogleSignIn,handleEmailChange,handlePasswordChange,handleLogin,error} =useAuth()
+  const {handleGoogleSignIn,handleEmailChange,handlePasswordChange,handleLogin,error,handleResetPassword} =useAuth()
   const location = useLocation();
   const history = useHistory()
   const redirect_url = location?.state?.from || '/home';
@@ -45,6 +45,7 @@ const Login = () => {
   </Form.Group>
   <p><small className="text-danger">{error}</small></p>
   <button type="submit" className="custom-button">Login </button>
+  <button onClick={handleResetPassword} className="custom-button ms-3">Reset Password </button>
 </Form>
 <br />
 <p><small>Create new account . <Link to="/register">Register now</Link></small></p>

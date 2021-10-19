@@ -3,10 +3,9 @@ import { Form } from 'react-bootstrap';
 import { Link,useHistory,useLocation } from 'react-router-dom';
 import googleIcon from '../../Images/google.png'
 import facebookIcon from '../../Images/facebook.png'
-import useFirebase from '../../Hooks/useFirebase';
 import './Login.css'
 import useAuth from '../../Hooks/useAuth';
-import initializeAuthentication from '../../Firebase/firebase.init';
+
 
 
 const Register = () => {
@@ -40,6 +39,8 @@ const Register = () => {
             <h2 className="text-primary mb-5" ><b>Register Now</b></h2>
             <Form onSubmit={handleRegistration}>
 
+   <Form.Control onBlur={handleNameChange} className="mb-3" placeholder="First name" />
+   
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Control onBlur={handleEmailChange} className=" mx-auto" type="email" placeholder="Enter email" required/>
     <Form.Text className="text-muted">
