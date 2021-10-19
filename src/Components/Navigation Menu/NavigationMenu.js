@@ -38,7 +38,7 @@ const NavigationMenu = () => {
       {
         user.displayName ? <div className="d-flex">
           <p className="mx-2 mt-2 text-white user-name"><small>| {user.displayName}</small></p>
-          <img className="user-image mt-1" src={user.photoURL} alt="" />
+          
           <button
          onClick={logOut}
         className="ms-3 custom-button">{signOutIcon} Logout</button>

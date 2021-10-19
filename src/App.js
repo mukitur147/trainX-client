@@ -49,7 +49,7 @@ function App() {
      <Route path ="/login">
        <Login></Login>
      </Route>
-     <PrivateRoute path="/service/:serviceId">
+     <PrivateRoute path="/servicedetail/:servicedetailId">
        <ServiceDetail></ServiceDetail>
      </PrivateRoute>
      <Route path="*">

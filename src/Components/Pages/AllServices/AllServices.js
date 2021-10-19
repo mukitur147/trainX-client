@@ -1,9 +1,11 @@
 
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import useServices from '../../../Hooks/useServices';
+import Service from '../Homepage/Service';
 
 const AllServices = () => {
    const[services]=useServices()
+   
    
     return (
         <div>
@@ -17,18 +19,10 @@ const AllServices = () => {
                 <Row xs={1} md={3} className="g-4 mb-5">
                     {Array.from({ length: 1 }).map((_, idx) => (
 
-                        services.map(services => <Col>
-                            <Card className="services-card">
-                                <Card.Img variant="top" src={services.img} />
-                                <Card.Body >
-                                     <h5>{services.Genre}</h5>
-                                    <h4>{services.name}</h4>
-                                    <p> {services.details}</p>
-                                   
-                                    <button className="custom-button">more info  </button>
-                                </Card.Body>
-                            </Card>
-                        </Col>)
+                        services.map(services => <Service
+                            key={services.id}
+                            services={services}
+                        ></Service>)
                     ))}
                 </Row>
             </Container>
