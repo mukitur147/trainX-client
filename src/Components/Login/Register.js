@@ -9,7 +9,7 @@ import useAuth from '../../Hooks/useAuth';
 
 
 const Register = () => {
-
+  
   const {handleGoogleSignIn,handleEmailChange,handlePasswordChange,handleRegistration,error,handleNameChange} =useAuth()
 
   // redirect 
