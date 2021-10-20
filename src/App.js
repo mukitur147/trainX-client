@@ -1,5 +1,5 @@
 
-import { BrowserRouter ,Switch,Route} from 'react-router-dom';
+import { BrowserRouter as Router ,Switch,Route} from 'react-router-dom';
 import './App.css';
 import AuthProvider from './Components/Contex/AuthProvider';
 import Footer from './Components/Footer/Footer';
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className="App">
   <AuthProvider>
-  <BrowserRouter>
+  <Router>
    <NavigationMenu></NavigationMenu>
    <Switch>
      <Route exact path="/">
@@ -49,7 +49,7 @@ function App() {
      <Route path ="/login">
        <Login></Login>
      </Route>
-     <PrivateRoute path="/servicedetail/:servicedetailId">
+     <PrivateRoute exact path="/servicedetail/:servicedetailId">
        <ServiceDetail></ServiceDetail>
      </PrivateRoute>
      <Route path="*">
@@ -57,7 +57,7 @@ function App() {
      </Route>
    </Switch>
 <Footer></Footer>
-   </BrowserRouter>
+   </Router>
   </AuthProvider>
     </div>
   );

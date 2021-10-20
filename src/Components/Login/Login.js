@@ -45,8 +45,8 @@ const Login = () => {
     <Form.Control onBlur={handlePasswordChange} className="w-75 mx-auto" type="password" placeholder="Password" />
   </Form.Group>
   <p><small className="text-danger">{error}</small></p>
-  <button type="submit" className="custom-button">Login </button>
-  <button onClick={handleResetPassword} className="custom-button ms-3">Reset Password </button>
+  <button type="submit" className="custom-button me-4">Login </button>
+  <button onClick={handleResetPassword} className="custom-button ">Reset Password </button>
 </Form>
 <br />
 <p><small>Create new account . <Link to="/register">Register now</Link></small></p>

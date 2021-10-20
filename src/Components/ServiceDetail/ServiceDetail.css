@@ -1,0 +1,34 @@
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.service-text{
+    text-align: left;
+}
+.service-text p{
+    color: rgb(75, 69, 69);
+     margin-top: 25px;
+     font-size: 18px;
+}
+.service-text h2{
+    color: orange;
+    font-size: 54px;
+}
+.price{
+    color: orange;
+    font-size: 32px;
+    font-weight: 600;
+}
+@media only screen and (max-width:668px) {
+
+    .service-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+}
