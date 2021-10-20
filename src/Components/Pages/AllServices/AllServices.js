@@ -1,5 +1,5 @@
 
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import useServices from '../../../Hooks/useServices';
 import Service from '../Homepage/Service';
 

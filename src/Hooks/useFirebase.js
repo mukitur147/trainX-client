@@ -6,38 +6,45 @@ import { useEffect, useState } from "react";
 initializeAuthentication()
 
 const useFirebase=()=>{
-    const [name,setName]=useState('')
+
+  const [name,setName]=useState('')
   const [user,setUser]=useState({})
   const[email,setEmail]=useState('')
-const [password,setPassword] = useState('')
-const [error,setError]=useState('')
+  const [password,setPassword] = useState('')
+  const [error,setError]=useState('')
+  const [isLoading,setIsLoading]=useState(true)
 
 
+  const auth =getAuth()
+  const googleProvider = new GoogleAuthProvider();
 
-
-
-
-    const auth =getAuth()
-    const googleProvider = new GoogleAuthProvider();
-
-    const handleGoogleSignIn=()=>{
+  // google sign in  
+  const handleGoogleSignIn=()=>{
+      setIsLoading(true)
     return signInWithPopup(auth,googleProvider)
     
     .catch(error=>{
       setUser(error.message)
-    }) 
+    })
+    .finally(()=>setIsLoading(false)) 
     }
-    
-const handleEmailChange=e=>{
+  
+  // email change handler for email login   
+  const handleEmailChange=e=>{
     setEmail(e.target.value)
   }
+
+  // password change handler for password login 
   const handlePasswordChange = e =>{
     setPassword(e.target.value)
   }
+
+  // name change handler for registration 
   const handleNameChange = e =>{
       setName(e.target.value)
   }
 
+  // registration handler 
   const handleRegistration = e=>{
     e.preventDefault()
     console.log(email,password)
@@ -56,9 +63,9 @@ const handleEmailChange=e=>{
     .catch(error=>{
       setError(error.message)
     })
-    
-   
   }
+
+  // login handler 
   const handleLogin = e => {
     e.preventDefault()
     signInWithEmailAndPassword(auth,email,password)
@@ -72,34 +79,48 @@ const handleEmailChange=e=>{
     })
   
   }
+
+  // email verification 
   const verifyEmail = ()=>{
       sendEmailVerification(auth.currentUser)
       .then(result=>{
           console.log(result)
       })
   }
+
+  // password reset 
   const handleResetPassword =()=>{
       sendPasswordResetEmail(auth,email)
       .then(result=>{})
   }
+
+  // set user name 
   const setUserName = ()=>{
       updateProfile(auth.currentUser,{displayName:name})
       .then(result=>{})
   }
   
-    
-    const logOut=()=>{
+  // logout handler    
+  const logOut=()=>{
+      setIsLoading(true)
         signOut(auth)
         .then(()=>{
             setUser({})
         })
+        .finally(()=>setIsLoading(false))
     }
 
+
+    // outh change 
     useEffect(()=>{
         onAuthStateChanged(auth,(user)=>{
             if(user){
                 setUser(user)
             }
+            else{
+              setUser({})
+            }
+            setIsLoading(false)
         })
     },[])
 
@@ -113,7 +134,8 @@ return{
     handleRegistration,
     handleLogin,
     handleResetPassword,
-    handleNameChange
+    handleNameChange,
+    isLoading
     
 }
 };

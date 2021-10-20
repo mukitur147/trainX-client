@@ -8,20 +8,28 @@ import { useHistory } from 'react-router';
 import useAuth from '../../Hooks/useAuth';
 
 const NavigationMenu = () => {
+
+  // get data from useauth 
   const{user ,logOut}=useAuth()
+
+// font awesome icons 
     const dumbell = <FontAwesomeIcon icon={faDumbbell} />
     const profile = <FontAwesomeIcon icon={faUser} />
     const signOutIcon = <FontAwesomeIcon icon={faSignOutAlt} />
 
-
+// register button handler 
     const history = useHistory()
+
     const handleLogin = ()=>{
       history.push('/register')
     }
     
     return (
         <div >
-<Navbar  className="navigatebar"  variant="dark" expand="lg">
+
+       {/* navigation bar     */}
+
+<Navbar sticky="top"  className="navigatebar"  variant="dark" expand="lg">
   <Container>
     <Navbar.Brand href="/home"> 
         <h3> <span className="icons"> {dumbell}</span>  TrainX </h3>
@@ -35,6 +43,7 @@ const NavigationMenu = () => {
       <Link to="/blogs">Blogs</Link>
       <Link to="/contact">Contact Us</Link> 
      
+     {/* show users name when logged in and logout button */}
       {
         user.displayName ? <div className="d-flex">
           <p className="mx-2 mt-2 text-white user-name"><small>| {user.displayName}</small></p>

@@ -31,7 +31,7 @@ npm start
 ## For Build Wesite 
 
 ```sh
-npm build react
+npm run build 
 ```
 
 

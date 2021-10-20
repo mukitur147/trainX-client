@@ -41,8 +41,7 @@ function App() {
      </Route>
      <Route path ="/contact">
        <ContactUs></ContactUs>
-     </Route>
-    
+     </Route>   
      <Route path="/register">
        <Register></Register>
      </Route>

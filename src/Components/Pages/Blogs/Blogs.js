@@ -5,7 +5,7 @@ import blog2 from '../../../Images/blog2.jpg'
 import blog3 from '../../../Images/blog3.jpg'
 import blog4 from '../../../Images/blog4.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowAltCircleRight, faArrowRight} from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight} from '@fortawesome/free-solid-svg-icons'
 
 
 const Blogs = () => {
@@ -39,14 +39,11 @@ const Blogs = () => {
             <div >
                 <input type="text" placeholder="search" />
                 <div className="my-4">
-                    <h6>Recent Post</h6>
-                    
+                    <h6>Recent Post</h6>                    
                         <p>{arrow} Fitness Tune-up</p>
                         <p>{arrow} Change Your Life</p>
                         <p>{arrow} Burn More Calorie</p>
-                        <p>{arrow} Exercises for Men</p>
-                        
-                    
+                        <p>{arrow} Exercises for Men</p>  
                 </div>
                 <div className="my-4">
                     <h6>Categories</h6>
@@ -56,7 +53,6 @@ const Blogs = () => {
                 </div>
                 <div className="my-4">
                     <h6>Opening Hours</h6>
-                    
                         <div>
                          <p>satarday (07:00-17:00)</p>
                          <p>Sunday (07:00-17:00) </p>
@@ -66,10 +62,6 @@ const Blogs = () => {
                          <p>Friday (07:00-17:00) </p>
                          
                         </div>
-                        
-                        
-                        
-                    
                 </div>
 
             
