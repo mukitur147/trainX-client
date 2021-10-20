@@ -25,6 +25,8 @@ const Register = () => {
     })
   }
 
+  
+
     return (
         <div>
             
@@ -34,7 +36,7 @@ const Register = () => {
             {/* email and password registration  */}
 
             <Form onSubmit={handleRegistration}>
-   <Form.Control onBlur={handleNameChange} className="mb-3" placeholder="First name" required />
+   <Form.Control onBlur={handleNameChange} className="mb-3" placeholder="Your name" required />
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Control onBlur={handleEmailChange} className=" mx-auto" type="email" placeholder="Enter email" required/>
     <Form.Text className="text-muted">

@@ -46,7 +46,7 @@ const NavigationMenu = () => {
      {/* show users name when logged in and logout button */}
       {
         user.displayName ? <div className="d-flex">
-          <p className="mx-2 mt-2 text-white user-name"><small>| {user.displayName}</small></p>
+          <p className="mx-2  user-name"><small>| {user.displayName}</small></p>
           
           <button
          onClick={logOut}
