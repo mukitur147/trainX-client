@@ -15,6 +15,10 @@ Link :  https://trainx-assignment.web.app/
 - email login and registration
 - google login and registration
 - private route
+- Dynamic routes for different packages.
+- User can create his account via email and also able to sign in
+via google and email.
+- User has to login to see product details because this is private route.
 
 ## Installation
 
